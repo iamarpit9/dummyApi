@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  margin: 10px auto;
+  height: 90%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset;
+  background-color: #e7a61a;
+  border-radius: 20px;
+  box-shadow: 4px 5px 0px 0px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: 4px 5px 0px 0px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 4px 5px 0px 0px rgba(0, 0, 0, 0.72);
+}
+
+.data {
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.name {
+  display: block;
+  width: 150px;
+}
+.email {
+  width: 230px;
+}
+
+.username {
+  width: 180px;
+}
+
+img {
+  width: 50px;
+  border-radius: 100px;
+  background-color: grey;
+}
